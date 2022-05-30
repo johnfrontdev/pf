@@ -1,0 +1,277 @@
+/*
+Theme Name: Passe de Fase
+Theme URI: http://passedefase.com
+Author: Jonas
+Author URI: http://passedefase.com/
+Description: Tema criado para o Passe de Fase
+Version: 1.0
+*/
+
+.carousel-item {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+}  
+
+
+main {
+    background-color: #00398B;
+    height: auto;
+    text-align: center;
+    margin-bottom: 100px;
+    color: #fff;
+    padding: 5% 0% 5% 0%;
+}
+
+.titulo-slider {
+    font-size: 3rem;
+}
+.textoSlider p{
+    font-size: 1.5rem;
+    
+}
+
+.titulo-slider::before {
+    content: "+";
+    position: relative;
+    top: -29px;
+    font-size: 3rem;
+
+}
+
+.textoSlider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.publico {
+    color: rgb(255, 255, 255);
+    height: auto;
+    margin-top: 7rem;
+    margin-bottom: 20rem;
+}
+
+.publico2 {
+    color: #00398B;
+    height: auto;
+    margin-top: 7rem;
+    margin-bottom: 20rem;
+}
+
+.saber {
+    background-color: #00398B;
+    color: #fff !important;
+}
+
+.lista-saber {
+    background-color: #2680EB;
+    height: 200px;
+}
+
+
+.bg-blue {
+ 
+    color: rgb(0, 0, 0);
+    display: flex;
+    text-align: end;
+    
+}
+
+
+.bg-blue-padding {
+    padding: 100px 60px 100px 60px;
+}
+
+.pad-public {
+    padding: 100px 0px 0px 0px;
+    background-color: #F4F4F4;
+}
+
+.bgg ul li {
+    color: #fff;
+    background-color: #05398B;
+    margin-top: 1rem;
+    width: 15rem;
+    margin-left: 5rem;
+    padding: 15px;
+}
+
+
+
+.public {
+    margin: 30px 0px 150px 0px;
+
+}
+
+.bgg {
+    background-color: #F4F4F4;
+    color: #05398B;
+}
+
+.bgg .col-md-4 {
+    padding: 50px 30px;
+    width: 26rem;
+}
+
+.font-p {
+    font-size: 1.3rem;
+}
+
+.font-p i {
+    margin-right: 1rem;
+}
+.texto-hero {
+    color: aliceblue;
+    font-size: 70px;
+}
+.btn {
+    width: 15rem;
+    margin: 0 auto;
+    background-color: #0F65E0;
+    color: #fff;
+    border: none;
+    padding: 10px 0px 10px 0px;
+}
+.card {
+    height: 18rem;
+    padding: 40px 20px;
+    transition: 0.5s;
+}
+
+.card i {
+    font-size: 3rem;
+}
+
+.card:hover {
+    background-color: #0F65E0;
+    color: #fff;
+}
+
+
+
+.container .btn {
+    margin-top: 3rem;
+}
+
+
+.img-circle {
+    background-color: #90909012;
+    border-radius: 50%;
+    width: 350px;
+    height: 330px;
+    background-image: url('img/Grupo\ 101.png');
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+
+
+.ss {
+    display: flex;
+    justify-content: end;
+    padding: 20px 50px 0px 0px;
+
+}
+
+.sd {
+    padding: 30px 0px 20px 60px;
+ 
+}
+
+.span-fonte-rosa {
+    color: #FE10C4;
+}
+
+nav {
+    padding: 20px;
+    position: absolute;
+}
+.header {
+    background-color: #7599cc;
+    margin: 0;
+    padding: 0;
+    height: 150px;
+
+}
+
+.brand {
+    color: #fff;
+}
+
+.nav-item a {
+    color: #fff !important;
+}
+
+.bg-blue-padding i {
+    margin-right: 1rem;
+    color: #00398B;
+}
+
+.contato {
+    height: auto;
+    background-color: #012758;
+    color: #fff;
+    padding: 70px 0px 70px 0px;
+}
+
+footer {
+    padding: 50px 30px 50px 30px;
+    text-align: center;
+}
+
+.bg-pink {
+
+    background-color: #FE10C4 !important;
+}
+
+.txt-pink {
+    color: #FE10C4;
+}
+
+
+.primeiro-grupo-contato {
+    padding: 0px 50px 0px 0px;
+}
+
+.formulario input{
+    background-color: #003C89;
+    border: none;
+    margin-bottom: 1rem;
+    padding: 10px;
+
+}
+
+.formulario label {
+    margin-bottom: 5px;
+}
+
+.beneficios {
+    margin-bottom: 15rem;
+    margin-top: 10rem !important;
+    color: #00398B;
+}
+
+@media (max-width: 600px) {
+    .carousel-item {
+  
+        flex-direction: column-reverse !important;
+        justify-content: center;
+        align-items: center;
+    }  
+
+    main{
+        height: auto;
+        padding-bottom: 3rem;
+    }
+    .mobile {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+}
